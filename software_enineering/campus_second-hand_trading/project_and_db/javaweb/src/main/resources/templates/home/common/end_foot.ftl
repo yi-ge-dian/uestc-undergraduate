@@ -1,0 +1,5 @@
+<!-- footer -->
+<footer class="footer">
+
+</footer>
+<!-- end footer -->

@@ -1,0 +1,3 @@
+verilog work "Control_Unit.v"
+verilog work "test_controlunit.v"
+verilog work "D:/Ise14.7/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,6 @@
+verilog isim_temp "Regfile.v"
+verilog isim_temp "mux5_2_1.v"
+verilog isim_temp "Control_Unit.v"
+verilog isim_temp "add32.v"
+verilog isim_temp "ID_STAGE.v"
+verilog isim_temp "D:/Ise14.7/14.7/ISE_DS/ISE//verilog/src/glbl.v"

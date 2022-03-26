@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="os-experiment:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/os_experiment_jar</output-path>
+    <root id="archive" name="os-experiment.jar">
+      <element id="module-output" name="os-experiment" />
+    </root>
+  </artifact>
+</component>

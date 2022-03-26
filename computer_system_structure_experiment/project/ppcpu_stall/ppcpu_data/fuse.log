@@ -1,0 +1,58 @@
+Running: D:\Ise14.7\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/third_isim_beh.exe -prj C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/third_beh.prj work.third work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/Regfile.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/mux5_2_1.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/mux32_4_1.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/mux32_2_1.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/Inst_ROM.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/dff32.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/Control_Unit.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/alu.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/add32.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/WB_STAGE.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/MEM_WB.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/MEM_STAGE.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/IF_STAGE.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/IF_ID.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/ID_STAGE.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/ID_EXE.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/EXE_STAGE.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/EXE_MEM.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/PPCPU_Data_Adventure_Solved_Stall.v" into library work
+Analyzing Verilog file "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/third.v" into library work
+Analyzing Verilog file "D:/Ise14.7/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/PPCPU_Data_Adventure_Solved_Stall.v" Line 71: Size mismatch in connection of port <wb_wreg>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/PPCPU_Data_Adventure_Solved_Stall.v" Line 78: Size mismatch in connection of port <id_wreg>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/PPCPU_Data_Adventure_Solved_Stall.v" Line 89: Size mismatch in connection of port <wb_wreg>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module dff32
+Compiling module add32
+Compiling module mux32_4_1
+Compiling module Inst_ROM
+Compiling module IF_STAGE
+Compiling module IF_ID
+Compiling module Control_Unit
+Compiling module Regfile
+Compiling module mux5_2_1
+Compiling module ID_STAGE
+Compiling module ID_EXE
+Compiling module mux32_2_1
+Compiling module alu
+Compiling module EXE_STAGE
+Compiling module EXE_MEM
+Compiling module MEM_STAGE
+Compiling module MEM_WB
+Compiling module WB_STAGE
+Compiling module PPCPU_Data_Adventure_Solved_Stal...
+Compiling module third
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 21 Verilog Units
+Built simulation executable C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/third_isim_beh.exe
+Fuse Memory Usage: 30292 KB
+Fuse CPU Usage: 593 ms

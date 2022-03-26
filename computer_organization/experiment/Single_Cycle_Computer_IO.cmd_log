@@ -1,0 +1,8 @@
+vhdtdtfi -lib work D:/dwl/experiment/Single_Cycle_Computer_IO.v -lang verilog -prj experiment -o Single_Cycle_Computer_IO.spl -module Single_Cycle_Computer_IO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Single_Cycle_Computer_IO.spl D:/dwl/experiment/Single_Cycle_Computer_IO.sym 
+xst -intstyle ise -ifn "D:/dwl/experiment/Single_Cycle_Computer_IO.xst" -ofn "D:/dwl/experiment/Single_Cycle_Computer_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Single_Cycle_Computer_IO.ucf -p xc6slx45-csg484-3 Single_Cycle_Computer_IO.ngc Single_Cycle_Computer_IO.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Single_Cycle_Computer_IO_map.ncd Single_Cycle_Computer_IO.ngd Single_Cycle_Computer_IO.pcf 
+par -w -intstyle ise -ol high -mt off Single_Cycle_Computer_IO_map.ncd Single_Cycle_Computer_IO.ncd Single_Cycle_Computer_IO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Single_Cycle_Computer_IO.twx Single_Cycle_Computer_IO.ncd -o Single_Cycle_Computer_IO.twr Single_Cycle_Computer_IO.pcf -ucf Single_Cycle_Computer_IO.ucf 
+bitgen -intstyle ise -f Single_Cycle_Computer_IO.ut Single_Cycle_Computer_IO.ncd 

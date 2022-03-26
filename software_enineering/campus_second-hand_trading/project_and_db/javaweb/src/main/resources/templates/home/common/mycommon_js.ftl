@@ -1,0 +1,1 @@
+<script src="/home/js/mycommon.js"></script>

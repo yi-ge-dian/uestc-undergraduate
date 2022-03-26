@@ -1,0 +1,28 @@
+Command line:
+   test_ppcpu_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65257
+
+Mon Jun 21 09:30:25 2021
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5166.01 Meg
+
+ Total Signals          : 231
+ Total Nets             : 3350
+ Total Signal Drivers   : 153
+ Total Blocks           : 24
+ Total Primitive Blocks : 18
+ Total Processes        : 170
+ Total Traceable Variables  : 55
+ Total Scalar Nets and Variables : 5998
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 4694.15 Meg
+
+Mon Jun 21 09:36:04 2021
+

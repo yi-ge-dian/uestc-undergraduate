@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\dwl\experiment\Single_Cycle_Computer_IO.ncd
+OUTFILE=D:\dwl\experiment\Single_Cycle_Computer_IO.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg484
+WORKINGDIR=D:\dwl\experiment
+LICENSE=WebPack
+USER_INFO=__0_0_0

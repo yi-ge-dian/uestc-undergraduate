@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>pictures/close.png</file>
+        <file>pictures/mini.png</file>
+        <file>pictures/1.png</file>
+        <file>pictures/2.png</file>
+        <file>pictures/3.png</file>
+        <file>pictures/4.png</file>
+        <file>pictures/LOGO.png</file>
+        <file>pictures/menu.png</file>
+        <file>pictures/addDictionary.png</file>
+        <file>pictures/delete.png</file>
+        <file>pictures/empty.png</file>
+        <file>pictures/addFile.png</file>
+        <file>pictures/backupscheme.png</file>
+        <file>pictures/begin.png</file>
+        <file>pictures/backup.ico</file>
+        <file>pictures/check.png</file>
+    </qresource>
+</RCC>

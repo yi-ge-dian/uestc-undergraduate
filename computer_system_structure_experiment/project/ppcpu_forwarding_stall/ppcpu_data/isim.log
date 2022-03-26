@@ -1,0 +1,13 @@
+ISim log file
+Running: E:\ISE_projects\ppcpu_data\test_sccpu_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/ISE_projects/ppcpu_data/test_sccpu_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "E:/ISE_projects/PPCPU_Data_Adventure_Solved_Forwaridng_Stall.v" Line 52.  For instance uut/stage2/, width 1 of formal port wb_wreg is not equal to width 32 of actual signal wb_wreg.
+WARNING: File "E:/ISE_projects/PPCPU_Data_Adventure_Solved_Forwaridng_Stall.v" Line 38.  For instance uut/id_exe/, width 1 of formal port id_wreg is not equal to width 32 of actual signal id_wreg.
+WARNING: File "E:/ISE_projects/PPCPU_Data_Adventure_Solved_Forwaridng_Stall.v" Line 52.  For instance uut/mem_wb/, width 1 of formal port wb_wreg is not equal to width 32 of actual signal wb_wreg.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 5000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

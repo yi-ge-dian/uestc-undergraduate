@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Sep 25 16:45:59 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED0" LOCATE = SITE "W3" LEVEL 1;
+COMP "LED1" LOCATE = SITE "Y4" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "AA21" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "AA22" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "Y22" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "N15" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "AB19" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "P20" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "Y21" LEVEL 1;
+COMP "seg<7>" LOCATE = SITE "P15" LEVEL 1;
+COMP "AN_SEL<0>" LOCATE = SITE "M17" LEVEL 1;
+COMP "AN_SEL<1>" LOCATE = SITE "AA20" LEVEL 1;
+COMP "AN_SEL<2>" LOCATE = SITE "AB21" LEVEL 1;
+COMP "AN_SEL<3>" LOCATE = SITE "N16" LEVEL 1;
+COMP "AN_SEL<4>" LOCATE = SITE "P19" LEVEL 1;
+COMP "AN_SEL<5>" LOCATE = SITE "P16" LEVEL 1;
+COMP "sys_Clock" LOCATE = SITE "D11" LEVEL 1;
+COMP "BTN_Clock" LOCATE = SITE "E6" LEVEL 1;
+COMP "BTN_Reset" LOCATE = SITE "D5" LEVEL 1;
+SCHEMATIC END;
+

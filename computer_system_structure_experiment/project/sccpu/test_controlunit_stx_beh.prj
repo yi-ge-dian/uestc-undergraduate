@@ -1,0 +1,3 @@
+verilog isim_temp "Control_Unit.v"
+verilog isim_temp "test_controlunit.v"
+verilog isim_temp "D:/Ise14.7/14.7/ISE_DS/ISE//verilog/src/glbl.v"

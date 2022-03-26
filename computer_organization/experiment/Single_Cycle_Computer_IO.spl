@@ -1,0 +1,13 @@
+[Inputs]
+sys_Clock
+BTN_Clock
+BTN_Reset
+[Outputs]
+LED0
+LED1
+=seg[7:0]=
+=AN_SEL[5:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Single_Cycle_Computer_IO
+

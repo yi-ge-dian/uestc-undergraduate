@@ -1,0 +1,23 @@
+1.webstorm
+2.matlab
+3.百度网盘
+4.phpstudy
+7.qq
+8.微信
+9.谷歌浏览器 （脚本安装vip+vidoe speed+bilibi）（
+收藏网站：当图网（vip）
+Greasy Fork  https://greasyfork.org/zh-CN
+信息门户
+https://idas.uestc.edu.cn/authserver/login?service=http%3A%2F%2Fportal.uestc.edu.cn%2F
+csdn
+中国大学mooc
+在线转换进制
+
+）
+10.offcie
+11.mysql
+13.好压
+14.ccclear
+15.格式工厂
+18.sublime txt3
+19.向日葵

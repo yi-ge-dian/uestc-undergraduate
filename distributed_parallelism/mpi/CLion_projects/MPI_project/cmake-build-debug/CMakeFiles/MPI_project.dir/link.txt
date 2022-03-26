@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/MPI_project.dir/main.c.o CMakeFiles/MPI_project.dir/removeEven.c.o CMakeFiles/MPI_project.dir/eliminateBroadcast.c.o CMakeFiles/MPI_project.dir/cacheOptimization.c.o CMakeFiles/MPI_project.dir/finalOptimization.c.o  -o MPI_project.exe -Wl,--out-implib,libMPI_project.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,4 @@
+verilog isim_temp "mux32_2_1.v"
+verilog isim_temp "alu.v"
+verilog isim_temp "EXE_STAGE.v"
+verilog isim_temp "D:/Ise14.7/14.7/ISE_DS/ISE//verilog/src/glbl.v"

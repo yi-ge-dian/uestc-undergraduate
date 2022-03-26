@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/third_isim_beh.exe" -prj "C:/Users/YiGeDian/Desktop/computer_system_structure_experiment/project/ppcpu_stall/ppcpu_data/third_beh.prj" "work.third" "work.glbl" 
