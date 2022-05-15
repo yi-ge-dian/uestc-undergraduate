@@ -1,1 +1,1 @@
-# UESTC
+# uestc_undergraduate
